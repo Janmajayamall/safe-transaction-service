@@ -191,8 +191,8 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 1140, "1.3.0"),
     ],
     EthereumNetwork.ARBITRUM_TESTNET: [
-        ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 57070, "1.3.0+L2"),
-        ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 57070, "1.3.0"),
+        ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 9157161, "1.3.0+L2"),
+        ("0xb28cBabDf7b55336C02a751b6AD3Ac342fD6eEec", 9157161, "1.3.0"),
     ],
     EthereumNetwork.BINANCE: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 8485899, "1.3.0+L2"),
@@ -304,7 +304,7 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 1140),  # v1.3.0
     ],
     EthereumNetwork.ARBITRUM_TESTNET: [
-        ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 57070),  # v1.3.0
+        ("0xdab2a175778821840db4a839301ffc1693cf1792", 9157161),  # v1.3.0
     ],
     EthereumNetwork.BINANCE: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 8485873),  # v1.3.0
